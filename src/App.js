@@ -24,6 +24,8 @@ function App() {
 
         {allElement}
       </div >
+      <hr></hr>
+      <h2>Top Article</h2>
     </div>
   );
 }

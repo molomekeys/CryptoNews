@@ -4,7 +4,7 @@ export default function Navbar() {
             <div>
 
             </div>
-            <div>
+            <div className="nav--search">
                 <input placeholder='Cherche Votre crypto' />
             </div>
         </nav>

@@ -8,7 +8,7 @@ export default function CryptoCard(props) {
                 <h3>{props.name} </h3>
 
             </div>
-            <p><b>{props.price}</b></p>
+            <p><b>{props.price.toPrecision(7)}</b></p>
         </div>
 
     )
