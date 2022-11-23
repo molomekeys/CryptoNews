@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import CryptoCard from './component/CryptoCard';
+import Navbar from './component/Navbar';
 function App() {
   const [isData, setIsData] = useState([]);
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
   console.log(isData);
   return (
     <div className='App'>
+      <Navbar />
       <div className='cryptoCardContainer'>
 
         {allElement}
